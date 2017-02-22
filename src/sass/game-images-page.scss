@@ -1,0 +1,64 @@
+.game-images-page {
+    .top-bar {
+        padding: 15px 0 15px 0;
+
+        .title {
+            font-size: 24px;
+        }
+    }
+
+    .image-list {
+        display: block;
+        text-align: center;
+    }
+
+    .image-item {
+        width: 188px;
+        text-align: left;
+        display: inline-block;
+
+        margin: 5px 5px;
+        cursor: pointer;
+
+        .image {
+            height: 120px;
+        }
+
+        .summary {
+            margin-top: -10px;
+
+            position: relative;
+            overflow: hidden;
+
+            .creator {
+                padding: 0 8px;
+                display: inline-block;
+
+                .avatar {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                .name {
+                    padding-left: 10px;
+                    vertical-align: bottom;
+                }
+            }
+
+            .info {
+                margin-top: 6px;
+                padding: 0 8px;
+                font-size: 12px;
+
+                .times {
+
+                }
+                .counters {
+
+                }
+            }
+
+        }
+
+    }
+}

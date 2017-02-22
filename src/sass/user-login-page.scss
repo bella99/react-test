@@ -1,0 +1,43 @@
+.user-login-page {
+    .login-title{
+        text-align: center;
+        padding:15px 0;
+        img{
+            width:15%;
+        }
+    }
+    .login-bg{
+        position: relative;
+        min-height: 800px;
+        overflow: hidden;
+        .login-block{
+            position: absolute;
+            top:30%;
+            left:50%;
+            transform:translateX(-50%) translateY(-30%);
+            max-width:600px;
+            min-width:300px;
+            text-align: center;
+            div{
+                width: 100%;
+                margin: 12px 0;
+            }
+            .login{
+                font-size: 32px;
+            }
+            .slogan{
+                font-size: 18px;
+            }
+            .login-tip{
+                overflow: hidden;
+                padding-bottom: 24px;
+                .forgot-password{
+                    &:hover{
+                        opacity:0.8;
+                    }
+                }
+            }
+        }
+    }
+
+}

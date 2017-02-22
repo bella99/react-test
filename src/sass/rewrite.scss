@@ -1,0 +1,45 @@
+body {
+    min-width: 240px;
+    width: auto !important;
+    width: 240x;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif,"Microsoft YaHei","微软雅黑";
+    font-size: 13px;
+    font-weight: 400;
+}
+pre {
+    border: none;
+    background: none;
+    font-size: 16px;
+    background: none;
+    code {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif,"Microsoft YaHei","微软雅黑";
+    }
+}
+
+.panel {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.container {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.row {
+    margin-right: -3px;
+    margin-left: -3px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+.app-root{
+    position: relative;
+    z-index: 0;
+}
+
+a:hover{
+  text-decoration: none;
+}

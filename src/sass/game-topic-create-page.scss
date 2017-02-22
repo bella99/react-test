@@ -1,0 +1,92 @@
+.game-topic-create-page {
+    .create-topic {
+        margin: 0 auto;
+        padding: 16px;
+        .user-img {
+            img {
+                box-shadow: 0 0 5px 1px #8394A0;
+                width: 60px;
+            }
+        }
+        .create-block {
+            width: 100%;
+            box-shadow: 0 0 5px 1px #8394A0;
+            .create-detail {
+                .create-title {
+                    padding: 16px;
+                    font-size: 20px;
+                }
+                .create-body {
+                    padding: 0 16px 16px;
+                    .select-title {
+                        padding: 16px 0 4px;
+                    }
+                    .create-item {
+                        width: 100%;
+                    }
+                    .create-emoji {
+                        .emoji {
+                            padding: 8px;
+                            border: 1px solid #ccc;
+                        }
+                    }
+                    .upload-images {
+                        .uploaded-images {
+                            display: inline-block;
+                            text-align: center;
+                            margin: 5px;
+                            position: relative;
+                            .delete-image {
+                                display: none;
+                                position: absolute;
+                                right: 5px;
+                                top: 5px;
+                                cursor: pointer;
+                            }
+                            img {
+                                object-fit: cover;
+                                width: 240px;
+                                height: 240px;
+                            }
+                            &:hover {
+                                box-shadow: 0 0 1px 1px #00B9FF;
+                                .delete-image {
+                                    display: block;
+                                }
+                            }
+                        }
+                        .upload-images-block{
+                            width: 200px;
+                            height: 200px;
+                            border-width: 2px;
+                            border-color: rgb(102, 102, 102);
+                            border-style: dashed;
+                            border-radius: 5px;
+                            display: inline-block;
+                            margin:5px;
+                            .upload-images-tip {
+                                width: 100%;
+                                display: inline-block;
+                                margin-left: 5px;
+                                text-align: center;
+                                padding-top: 80px;
+                            }
+                        }
+
+
+                    }
+
+                }
+                .create-foot {
+                    overflow: hidden;
+                    padding: 16px;
+                    .pull-right {
+                        .cancel-btn {
+                            margin-right: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

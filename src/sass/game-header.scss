@@ -1,0 +1,148 @@
+.game-header {
+    border: 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+
+    .background {
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        position: absolute;
+        float: left;
+
+        &.background-color {
+            z-index: -1;
+            opacity: 0.95
+        }
+    }
+
+    .download-btn {
+        cursor: pointer;
+        padding: 6px 12px;
+        border: 1px solid currentColor;
+        border-radius: 5px;
+    }
+
+    .container {
+        display: flex;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .game-summary {
+        float: left;
+    }
+
+    .game-download {
+        float: right;
+        white-space: nowrap;
+    }
+}
+
+.game-tiny-header {
+    height: 50px;
+    display: none;
+    z-index:1000;
+
+    position: fixed !important;
+
+    .background {
+        height: 50px;
+    }
+
+    .container {
+        display: flex;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .game-summary {
+
+        .icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+        }
+
+        .name {
+            font-size: 22px;
+            text-shadow: 0px 1px rgba(0, 0, 0, 0.56);
+        }
+    }
+}
+
+.game-top-header {
+    height:50px;
+
+    .container {
+        display: block;
+        padding-left: 16px;
+        padding-right: 16px;
+
+        .left {
+            float: left;
+        }
+
+        .right {
+            float: right;
+        }
+    }
+
+    .logo-icon {
+        height: 32px;
+    }
+
+    .login-bar {
+        line-height: 32px;
+    }
+
+    .logined-bar {
+        cursor: pointer;
+
+        .avatar {
+            width: 32px;
+            height: 32px;
+        }
+
+        .dropdown-menu {
+            min-width: auto;
+        }
+    }
+}
+
+.game-main-header {
+    height: 100px;
+
+    .background {
+        height: 100px;
+        top: 50px;
+        left: 0px;
+        position: absolute;
+    }
+
+    .game-summary {
+
+        p {
+            margin: 0px;
+        }
+
+        .icon {
+            width: 60px;
+            height: 60px;
+            -webkit-border-radius: 14px;
+            -moz-border-radius: 14px;
+            border-radius: 14px;;
+        }
+
+        .name {
+            font-size: 28px;
+            text-shadow: 0px 1px rgba(0, 0, 0, 0.56);
+        }
+
+        .counters {
+            font-size: 12px;
+            margin-top: 4px;
+        }
+    }
+}

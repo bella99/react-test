@@ -1,0 +1,42 @@
+.game-topic-vote-block {
+  background: #fff;
+  border: 1px solid #E2EBEF;
+  border-radius: 4px;
+  margin-top: 16px;
+  .vote-title{
+    padding:10px 24px;
+    border-bottom: 1px solid #E2EBEF;
+  }
+  .media{
+    padding:5px 24px 10px;
+    border-bottom: 1px solid #E2EBEF;
+    &:last-child{
+      border:none;
+    }
+    .media-left{
+      img{
+        width:60px;
+        height:60px;
+        border-radius: 4px;
+      }
+    }
+    .vote-body{
+      .vote-name{
+
+      }
+      .vote-progress{
+        box-shadow: none;
+        background: #E2EBEF;
+        height:36px;
+        border-radius: 0;
+        .vote-progress-bar{
+          line-height: 36px;
+          font-size: 14px;
+          box-shadow: none;
+          padding-left: 8px;
+          padding-right: 8px;
+        }
+      }
+    }
+  }
+}

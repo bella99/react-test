@@ -1,0 +1,40 @@
+.game-collection-detail-page {
+
+    .top-bar {
+        padding: 15px 0 15px 0;
+
+        .title {
+            font-size: 24px;
+        }
+    }
+
+    .detail-body {
+        .image {
+            width: 100%;
+            height: auto;
+        }
+
+        .summary {
+            padding: 32px 32px;
+
+            .title {
+                font-size: 24px;
+            }
+
+            .content {
+                .content-text{
+                    padding: 9.5px 0px;
+                }
+
+            }
+
+            .counters {
+            }
+        }
+    }
+
+    .topic-count {
+        padding: 15px 32px;
+    }
+
+}

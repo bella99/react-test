@@ -1,0 +1,65 @@
+.game-videos-page {
+    .top-bar {
+        padding: 15px 0 15px 0;
+
+        .title {
+            font-size: 24px;
+        }
+    }
+
+    .video-list {
+        display: block;
+        text-align: center;
+    }
+
+    .video-item {
+        width: 205px;
+        text-align: left;
+        display: inline-block;
+
+        margin-left:5px;
+        cursor: pointer;
+
+
+        .video {
+            height: 120px;
+        }
+
+        .summary {
+            margin-top: -10px;
+
+            position: relative;
+            overflow: hidden;
+
+            .creator {
+                padding: 0 8px;
+                display: inline-block;
+
+                .avatar {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                .name {
+                    padding-left: 10px;
+                    vertical-align: bottom;
+                }
+            }
+
+            .info {
+                margin-top: 6px;
+                padding: 0 8px;
+                font-size: 12px;
+
+                .times {
+
+                }
+                .counters {
+
+                }
+            }
+
+        }
+
+    }
+}

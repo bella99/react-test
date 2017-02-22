@@ -1,0 +1,22 @@
+.back-top {
+    width: 60px;
+    height: 60px;
+    bottom: 5%;
+    right: 35px;
+    display: none;
+    position: fixed;
+    cursor: pointer;
+    border: 1px solid #d1dade;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 10px 15px 0 rgba(36,83,107,.15);
+    z-index: 999;
+    span {
+        font-size: 32px;
+        color: #8394a0;
+        position: relative;
+        top: 12px;
+        right: 2px;
+    }
+}

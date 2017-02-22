@@ -1,0 +1,34 @@
+.waitting-box {
+    display: none;
+
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+
+    .icon {
+        height: 80px;
+        height: 80px;
+    }
+}
+
+.game-topic-search-page {
+    .top-bar {
+        padding: 15px 0 0 0;
+
+        .result {
+            font-size: 24px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    .keyword{
+        color: red;
+    }
+}

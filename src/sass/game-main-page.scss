@@ -1,0 +1,115 @@
+.game-main-page {
+
+    .col-side-left {
+        padding:0 16px;
+        margin-top:10px;
+    }
+
+    .col-side-middle {
+        padding:0 16px;
+        margin-top: 20px;
+    }
+
+    .col-side-right {
+        padding:0 16px;
+        margin-top:20px;
+    }
+
+    .category-list {
+
+        .category-item {
+            padding: 24px 0 0 0;
+            margin-bottom: 8px;
+            box-shadow: 0 2px 5px rgba(10, 46, 66, 0.1);
+        }
+
+        .category-summary {
+            cursor: pointer;
+
+            display: flex;
+            padding-left: 24px;
+            padding-right:24px;
+            margin-bottom: 13px;
+
+            .media-left{
+                padding-right:24px;
+                .icon {
+                    width: 64px;
+                }
+            }
+
+            .name {
+                font-size: 28px;
+                width:100%;
+                display: inline-block;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                .pull-right{
+                    font-size:0.6rem;
+                }
+            }
+
+            .counters {
+            }
+
+            .images {
+                display: flex;
+
+                .counters {
+                    line-height: 36px;
+                    margin-left: 8px;
+                }
+            }
+
+            .image {
+                width: 36px;
+                height: 36px;
+                border: 1px solid transparent;
+                padding-right: 3px;
+            }
+
+        }
+
+        .category-topic-list {
+            cursor: pointer;
+
+            .media {
+                display: flex;
+                padding: 6px 24px;
+                padding-top:16px;
+                margin-top: 0px;
+            }
+
+            .avatar {
+                width: 40px;
+                height: 40px;
+            }
+
+            .name {
+                .nick-name{
+                    display: inline-block;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    width:82%;
+                    padding-right:16px;
+                }
+                .pull-right{
+                    position:absolute;
+                    right:24px;
+                    clear:both;
+                }
+
+            }
+
+            .title {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                display: inline-block;
+                width: 100%;
+            }
+        }
+    }
+}

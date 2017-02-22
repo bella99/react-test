@@ -1,0 +1,97 @@
+.rectbox-image {
+    overflow: hidden;
+    position: relative;
+
+    img {
+        display:block;
+        position:absolute;
+        min-height:100%;
+        min-width:100%;
+        left:50%;
+        top:50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.rectbox-video {
+    overflow: hidden;
+    position: relative;
+
+    img {
+        display:block;
+        position:absolute;
+        min-height:100%;
+        min-width:100%;
+        left:50%;
+        top:50%;
+        transform: translate(-50%, -50%);
+    }
+    .video-cover{
+        display: inline-block;
+        position: absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background: rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .control {
+        z-index :2;
+        font-size: 32px;
+        display:inline-block;
+        position:absolute;
+        text-align: center;
+        top:50%;
+        left:50%;
+        color: #fff;
+        transform: translateX(-50%) translateY(-50%);
+    }
+}
+
+.rectbox-covered {
+    .cover {
+        display: none;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+
+        color: #fff;
+        background-color: rgba(0,0,0,.50);
+
+
+        .text {
+            font-size: 14px;
+            width: 100%;
+            position: absolute;
+            left: 0px;
+            bottom: 10px;
+        }
+    }
+
+    &:hover {
+        .cover {
+            display: block;
+        }
+    }
+}
+
+.rectbox-center-x {
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.rectbox-center-y {
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.rectbox-center-xy {
+    position: relative;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}

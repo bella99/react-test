@@ -1,0 +1,57 @@
+.game-topic-search-bar {
+    margin-bottom:15px;
+
+    .keyword-input{
+        .keyword {
+            border-right:0;
+            &:focus{
+                border-color:#ccc;
+                box-shadow: none;
+                outline:none;
+            }
+        }
+        .search-btn{
+            background-color:#fff;
+            border-left:0;
+        }
+        &:hover{
+            border-radius: 4px;
+            -webkit-box-shadow: 0 0 1px 1px  #ddd;
+            -moz-box-shadow: 0 0 1px 1px #ddd;
+            box-shadow: 0 0 1px 1px #ddd;
+        }
+    }
+
+
+    .extend {
+        display: none;
+        background: #fff;
+        position: relative;
+        z-index: 99;
+        .tip-words{
+            z-index: 9999;
+            position: absolute;
+            width:100%;
+            .tip-item{
+                width:100%;
+                cursor: pointer;
+                &:hover{
+                    background: #ccc;
+                }
+            }
+        }
+
+        .hot-words {
+            padding:5px;
+            border:1px solid #ddd;
+            .word {
+                cursor: pointer;
+                display: inline-block;
+                padding:5px 10px;
+            }
+        }
+    }
+
+
+
+}

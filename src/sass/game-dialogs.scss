@@ -1,0 +1,64 @@
+
+.game-download-dialog {
+
+    .modal-content {
+        border: 0;
+    }
+
+    .modal-body {
+        padding: 0;
+    }
+
+
+    .header {
+        height: 150px;
+        padding: 10px 10px;
+
+        .close-btn {
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .icon {
+            width: 96px;
+            height: 96px;
+
+            margin-top: 30px;
+            border: 2px solid currentColor;
+        }
+
+    }
+
+    .body {
+        padding: 10px 10px;
+        text-align: center;
+
+        .title {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        .icon {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        .qrtitle {
+
+        }
+
+        .qrcode {
+            width: 128px;
+            height: 128px;
+
+            display: block;
+            margin: 0 auto;
+            padding: 0;
+
+            canvas {
+                width: 100% !important;
+                height: 100% !important;
+            }
+        }
+    }
+}

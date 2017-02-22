@@ -1,0 +1,55 @@
+
+.game-topic-action-bar {
+    display: flex;
+    padding: 4px 16px 0px 16px;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(10, 46, 66, 0.1);
+
+    li {
+        padding: 6px 10px;
+        line-height: 30px;
+        cursor: pointer;
+
+        .glyphicon {
+            margin-right: 10px;
+        }
+
+        &:first-child {
+            .glyphicon {
+                margin-right: 8px;
+            }
+        }
+
+        &.active {
+            border-bottom: 2px solid;
+            color:#00B9FF;
+        }
+    }
+
+    .order-select {
+        max-width: 140px;
+        outline:none;
+        .dropdown-menu {
+            max-width: 140px;
+        }
+
+        .dropdown-toggle {
+            box-shadow: none;
+            -webkit-box-shadow: none;
+            margin-top: -5px;
+            font-size: 16px;
+        }
+
+        button {
+            border:none;
+            background-color: transparent;
+            color: #8394A0;
+        }
+    }
+
+    .open>.dropdown-toggle.btn-default:hover {
+        color: #333;
+        background-color: #d4d4d4;
+        border-color: #8c8c8c;
+    }
+}
